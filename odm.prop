@@ -8,7 +8,3 @@ vendor.display.enable_spr=1
 vendor.display.force_lm_to_fb_config=1
 vendor.display.pdfr=1
 vendor.display.uir_support=1
-
-# Regional properties
-ro.product.property_source_order=odm,vendor,product,system_ext,system
-import /odm/etc/${ro.boot.prjname}/build.default.prop
