@@ -1,10 +1,4 @@
 # Display
 ro.vendor.display.sensortype=2
-vendor.display.enable_dcc=1000000000000
-vendor.display.enable_demura=1
-vendor.display.enable_hist_intr=1
-vendor.display.enable_spr_bypass=0
-vendor.display.enable_spr=1
 vendor.display.force_lm_to_fb_config=1
-vendor.display.pdfr=1
-vendor.display.uir_support=1
+ro.vendor.display.enable_frc_rm=1
