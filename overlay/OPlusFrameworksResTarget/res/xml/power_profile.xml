@@ -60,7 +60,7 @@
   <item name="wifi.active">223</item>  <!-- WIFI data transfer, ~200mA -->
   <item name="wifi.scan">120</item>  <!-- WIFI network scanning, ~100mA -->
   <item name="audio">54.2</item> <!-- ~10mA -->
-  <item name="video">60.0</item> <!-- video ~60mA -->
+  <item name="video">0</item> <!-- ~50mA -->
   <item name="camera.flashlight">180</item> <!-- Avg. power for camera flash, ~160mA -->
   <item name="camera.avg">596</item> <!-- Avg. power use of camera in standard usecases, ~550mA -->
   <item name="gps.on">75</item> <!-- ~50mA -->
@@ -125,8 +125,8 @@
     </array>
 
     <array name="cpu.core_speeds.cluster1">
-        <value>614400</value>
         <value>1017600</value>
+        <value>1209600</value>
         <value>1401600</value>
         <value>1689600</value>
         <value>1958400</value>
@@ -169,8 +169,8 @@
        Like cpu.speeds.cluster1, there must be one of these present for
        each heterogeneous CPU cluster. -->
   <array name="cpu.core_power.cluster1">
-        <value>65.8</value>
         <value>85.8</value>
+        <value>106.0</value>
         <value>126.2</value>
         <value>168.6</value>
         <value>206.2</value>
@@ -199,7 +199,7 @@
   </array>
 
   <!-- This is the battery capacity in mAh (measured at nominal voltage) -->
-  <item name="battery.capacity">6000</item>
+  <item name="battery.capacity">6500</item>
 
   <!-- Wifi related values. -->
   <!-- Idle Receive current for wifi radio in mA. 0 by default-->
