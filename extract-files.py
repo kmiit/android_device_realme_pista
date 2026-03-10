@@ -29,19 +29,12 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace(r'(fdSupport += )TRUE;', r'\1FALSE;'),
     'odm/etc/init/init.camera_process.rc': blob_fixup()
         .regex_replace('    delete_recursion', '    #delete_recursion'),
-    (
-        'odm/etc/libnfc-mtp-SN220.conf_23821',
-        'odm/etc/libnfc-mtp-SN220.conf_23893'
-    ): blob_fixup()
-        .regex_replace('(NXPLOG_.*_LOGLEVEL)=0x03', '\\1=0x02')
-        .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
-    'odm/firmware/fastchg/23821/charging_hyper_mode_config.txt': blob_fixup()
-        .regex_replace(r"(PROJECT:=)23893", r"\g<1>23821"),
     'odm/lib64/libAlgoProcess.so': blob_fixup()
         .replace_needed('android.hardware.graphics.common-V5-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
     (
         'odm/lib64/libAncHumanSegFigureFusion.so',
         'odm/lib64/libEIS.so',
+        'odm/lib64/libFaceBeautyJni.so',
         'odm/lib64/libHIS.so',
         'odm/lib64/libOPAlgoCamAiBeautyFaceRetouchCn.so',
         'odm/lib64/libOPAlgoCamAiUnifySkin.so',
@@ -56,6 +49,9 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('AHardwareBuffer_unlock'),
     'odm/lib64/libsensorbridge.so': blob_fixup()
         .replace_needed('android.hardware.sensors-V2-ndk.so', 'android.hardware.sensors-V3-ndk.so'),
+    'vendor/etc/libnfc-nxp.conf': blob_fixup()
+        .regex_replace('(NXPLOG_.*_LOGLEVEL)=0x03', '\\1=0x02')
+        .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
     'vendor/etc/libnfc-nci.conf': blob_fixup()
         .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
     (
