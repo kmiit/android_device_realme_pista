@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 13 (CPH2653_16.0.3.501(EX01)).
+## are from realme GT7 Pro (RMX5010_16.0.3.500(CN01)).
 
 abl.img;AB
 aop.img;AB
@@ -16,6 +16,7 @@ imagefv.img;AB
 keymaster.img;AB
 modem.img;AB
 oplus_sec.img;AB
+oplusstanvbk.img;AB
 pdp.img;AB
 pdp_cdb.img;AB
 pvmfw.img;AB
