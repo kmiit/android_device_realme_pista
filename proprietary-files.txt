@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from realme GT7 Pro (RMX5010_16.0.3.500(CN01)).
+## are from realme GT7 Pro (RMX5010_16.0.5.712(CN01)).
 
 # ACDB
 odm/etc/acdbdata/acdb_cal.acdb:vendor/etc/acdbdata/sun_mtp/acdb_cal.acdb
@@ -1391,6 +1391,7 @@ odm/etc/sensor/config/json_list
 odm/etc/sensor/config/lux_aod.json
 odm/etc/sensor/config/oplus_backclip_detect.json
 odm/etc/sensor/config/oplus_back_tap.json
+odm/etc/sensor/config/oplus_car_motion.json
 odm/etc/sensor/config/oplus_rotation_detect.json
 odm/etc/sensor/config/pakala_mtp_ak09919.json
 odm/etc/sensor/config/pakala_mtp_alsps_hw_tcs3720.json
@@ -1404,6 +1405,7 @@ odm/etc/sensor/config/pakala_mtp_oplus_shaking.json
 odm/etc/sensor/config/pakala_mtp_oplus_smart_prox.json
 odm/etc/sensor/config/pakala_mtp_pocket.json
 odm/etc/sensor/config/pista_qrd_ois_system.json
+odm/etc/sensor/config/sns_gyro_cal.json
 vendor/etc/sensors/config/json.lst
 vendor/etc/sensors/config/qsh_camera_common.json
 vendor/etc/sensors/config/qsh_camera_dodgefront_3.json
