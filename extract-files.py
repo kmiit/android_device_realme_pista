@@ -54,6 +54,8 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/etc/libnfc-nxp.conf': blob_fixup()
         .regex_replace('(NXPLOG_.*_LOGLEVEL)=0x03', '\\1=0x02')
         .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
+    'odm/lib64/vendor.oplus.hardware.camera.aon-service-impl.so': blob_fixup()
+        .replace_needed('vendor.oplus.hardware.camera.aon-V1-ndk_platform.so', 'vendor.oplus.hardware.camera.aon-V1-ndk.so'),
     'vendor/etc/libnfc-nci.conf': blob_fixup()
         .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
     (
