@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from realme GT7 Pro (RMX5010_16.0.5.712(CN01)).
+## are from realme GT7 Pro (RMX5010_16.0.9=10.500(CN01)).
 
 # ACDB
 odm/etc/acdbdata/acdb_cal.acdb:vendor/etc/acdbdata/sun_mtp/acdb_cal.acdb
@@ -550,6 +550,17 @@ odm/etc/camera/meishe_lut/White.cube.rgb.bin
 odm/etc/camera/meishe_lut/Winterfell.cube.rgb.bin
 odm/etc/camera/meishe_lut/black_gold.bin
 odm/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin
+odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_master_0.bin
+odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_master_1.bin
+odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_master.bin
+odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_normal_0.bin
+odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_normal_1.bin
+odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_normal.bin
+odm/etc/camera/meishe_lut/blackandwhite_HC_master.bin
+odm/etc/camera/meishe_lut/blackandwhite_HC_normal.bin
+odm/etc/camera/meishe_lut/blackandwhite_HC_sdr_0.bin
+odm/etc/camera/meishe_lut/blackandwhite_HC_sdr_1.bin
+odm/etc/camera/meishe_lut/blackandwhite_HC_sdr.bin
 odm/etc/camera/meishe_lut/bright_coloured.bin
 odm/etc/camera/meishe_lut/ceremony.rgba.bin
 odm/etc/camera/meishe_lut/city.cube.rgb.bin
@@ -604,6 +615,14 @@ odm/etc/camera/meishe_lut/oplus-nightcity.cube.rgb.bin
 odm/etc/camera/meishe_lut/oplus-yellow-blue.cube.rgb.bin
 odm/etc/camera/meishe_lut/p4_1.cube.rgb.bin
 odm/etc/camera/meishe_lut/p4_3.cube.rgb.bin
+odm/etc/camera/meishe_lut/portra400_hdr_master_a_1.bin
+odm/etc/camera/meishe_lut/portra400_hdr_master_d_1.bin
+odm/etc/camera/meishe_lut/portra400_hdr_normal_a_1.bin
+odm/etc/camera/meishe_lut/portra400_hdr_normal_d_1.bin
+odm/etc/camera/meishe_lut/portra400_master.bin
+odm/etc/camera/meishe_lut/portra400_normal.bin
+odm/etc/camera/meishe_lut/portra400_sdr_gen_a_1.bin
+odm/etc/camera/meishe_lut/portra400_sdr_gen_d_1.bin
 odm/etc/camera/meishe_lut/rJ5g5vPWG
 odm/etc/camera/meishe_lut/red-red.cube.rgb.bin
 odm/etc/camera/meishe_lut/sky-blue.cube.rgb.bin
